@@ -202,6 +202,18 @@ body {
   color: white;
   padding: 20px;
 }
+
+.table-style th,
+.table-style td {
+  padding: 15px 20px;
+  text-align: left;
+}
+.table-style tbody tr:hover {
+  background: #f0f4ff;
+  transition: transform 0.25s ease-in, background 0.2s ease;
+  transform: scale(1.02);
+}
+
 .table-responsive {
   display: flex;
   justify-content: start;
@@ -267,7 +279,23 @@ body {
   height: 18px;
   clip-rule: evenodd;
 }
-
+.position-fixed {
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(55deg, #e52323, #751808);
+  border-radius: 50%;
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  transition: transform 0.3s ease;
+}
 .styled-textarea {
   width: 100%;
   padding: 12px 16px;
